@@ -288,6 +288,17 @@ document.body.append(container)
    head.style.padding = "10px";  
    head.style.gap = '20px'
 
+
+   function responsive() {
+    if (window.innerWidth < 768) {
+        head.style.flexDirection = "column";
+    } else {
+        head.style.flexDirection = "row";
+    }
+}
+
+responsive();
+window.addEventListener("resize", responsive);
     </script>
     
 </body>

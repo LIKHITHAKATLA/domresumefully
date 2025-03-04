@@ -13,19 +13,23 @@
 </head>
 <body>
     <script>
+
+var container = document.createElement('div');
+container.className = "resumeborder"
+container.style.width = '80%';
+container.style.margin = '0px auto';
+container.style.padding = '20px';
+document.body.append(container)
+
         var resumee = document.createElement("h1")
         resumee.className = "heading"
         resumee.innerHTML = 'KATLA LIKHITHA'
-        document.body.append(resumee)
-        
+        container.append(resumee)
         console.log(resumee)
-
-
-
 
         var head = document.createElement("header");
         head.innerHTML = '<div class="divcon"><i class="fa fa-envelope"></i><a href="mailto:likhithakatla1002@gmail.com">likhithakatla1002@gmail.com</a></div><div class="divcon"><i class="fa fa-phone"></i> 9381297504</div><div class="divcon"><i class="fa fa-map-marker"></i> Siriclla</div><div class="divcon"><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/katla-likhitha-675b2022b/" target="_blank">linkedin.com/in/katla-likhitha-675b2022b</a></div>';
-        document.body.append(head)
+        container.append(head)
 
         console.log(head)
 
@@ -44,60 +48,60 @@
 
         var profile = document.createElement("div")
         profile.innerHTML = '<div class="subheadings"><i class="fa fa-address-card"></i> PROFILE</div><hr><p class="font">To secure a challenging Full Stack Developer position where I can apply my skills to create dynamic and user-friendly web applications, contribute to a collaborative team, and continuously enhance my technical knowledge.</p>'
-        document.body.append(profile)
+        container.append(profile)
 
         var education = document.createElement("div")
         education.innerHTML = '<div class="subheadings"><i class="fa fa-graduation-cap"></i> EDUCATION</div><hr>'
-        document.body.append(education)
+        container.append(education)
         console.log(education)
 
         var edu = document.createElement("div")
         edu.className = "table"
         edu.innerHTML = '<div class="row"><div class="cell details">Masters of Computer Applicatio(MCA)</div><div class="cell details">2022-2024</div></div><div class="row"><div class="cell subdetails font">A V PG CollegHyderabad</div><div class="cell subdetails font">82%</div></div><div class="row"><div class="cell details">Bachelors of Science (MSC)</div><div class="cell details">2019-2022</div></div><div class="row"><div class="cell subdetails font">Mahatma Jyothiba PhuResidential Degree College, Wargal</div><div class="cell subdetails font">92%</div></div>'
-        document.body.append(edu)
+        container.append(edu)
         console.log(edu)
 
         var projec = document.createElement("div")
         projec.className = "subheadings"
         projec.innerHTML = '<i class="fa fa-folder-open"></i>&nbsp;PROJECTS</div><hr>'
-    document.body.append(projec)
+        container.append(projec)
     console.log(projec)
 
     var projectdesc = document.createElement('div')
     projectdesc.innerHTML = '<p class="details">WORKPATH (Employment for Semi-Literates)</p><p class="subdetails font">Frontend Web DevelopmentIntern by IBMCOMPANY</p><ul type="disc"><li>Developed an innovative web platform to facilitateemploymentopportunities for semi-literate individuals.</li><li>Designed user-friendly interfaces with simple navigationtoaccommodate users with limited literacy.</li><li>Utilized technologies such as HTML, CSS, Javascript, MySQLBootstrap.</li></ul><p class="details">ONLINE EXAMINATION SYSTEM</p><ul type="disc"><li>Developed and implemented a online examination system tostreamlinethe exam process for educational institutions.</li><li>Key features included secure user authentication, examcreation andscheduling, automated grading, and comprehensivereporting.</li><li>Enhanced exam accessibility and efficiency,reducingadministrativeworkload and improving the overall user experience</li><li>Utilized technologies such as HTML, CSS, JavaScript, andMySQL.</li></ul>'
-    document.body.append(projectdesc)
+    container.append(projectdesc)
 
     var skills = document.createElement('div')
     skills.className = 'subheadings'
     skills.innerHTML = '<i class="fa fa-briefcase"></i> SKILLS<hr>'
-    document.body.append(skills)
+    container.append(skills)
 
     var skilldesc = document.createElement('div')
     skilldesc.className = 'table'
     skilldesc.innerHTML = '<div class="row"><div class="cell ">Languages: Python, HTML, CSS, JavaScript</div><div class="cell ">Frameworks: Bootstrap</div></div><div class="row"><div class="cell ">Database: MySQL</div><div class="cell ">Tools: VSCode</div></div>'
-    document.body.append(skilldesc)
+    container.append(skilldesc)
 
 
     var achievement = document.createElement("div")
     achievement.className = "subheadings"
     achievement.innerHTML = '<i class="fa fa-trophy"></i>&nbsp;ACHIEVEMENTS</div><hr>'
-    document.body.append(achievement)
+    container.append(achievement)
     console.log(achievement)
 
     var achivedesc = document.createElement("div")
     achivedesc.innerHTML = '<p class="details">Certified with PITCH NIGHT by IBM</p><ul type="disc"><li>In recognition of outstanding achievement as the 3rd runner-upof the IBM Skills build Front End Web Development Internship Program.</li></ul>'
-    document.body.append(achivedesc)
+    container.append(achivedesc)
 
 
     var declare = document.createElement("div")
     declare.className = "subheadings"
     declare.innerHTML = '<i class="fa fa-pencil"></i>&nbsp;DECLARATION</div><hr>'
-    document.body.append(declare)
+    container.append(declare)
     console.log(declare)
 
     var declaredesc = document.createElement("div")
     declaredesc.innerHTML = '<p>I hereby declare that all the information provided in this resume is true and correct to the best of my knowledge andbelief.I understand that any willful misstatement herein described may lead to my disqualification or dismissal if employed.</p><p class="right details">Katla Likhitha</p>'
-    document.body.append(declaredesc)
+    container.append(declaredesc)
 
 
 
@@ -246,27 +250,27 @@
 
 
    var subheading = document.getElementsByClassName("subheadings")[0];
-   subheading.style.fontSize="18px"
+   subheading.style.fontSize="22px"
    subheading.style.fontWeight = "bold"
 
    var subheading1 = document.getElementsByClassName("subheadings")[1];
-   subheading1.style.fontSize="18px"
+   subheading1.style.fontSize="22px"
    subheading1.style.fontWeight = "bold"
 
    var subheading2 = document.getElementsByClassName("subheadings")[2];
-   subheading2.style.fontSize="18px"
+   subheading2.style.fontSize="22px"
    subheading2.style.fontWeight = "bold"
 
    var subheading3 = document.getElementsByClassName("subheadings")[3];
-   subheading3.style.fontSize="18px"
+   subheading3.style.fontSize="22px"
    subheading3.style.fontWeight = "bold"
 
    var subheading4 = document.getElementsByClassName("subheadings")[4];
-   subheading4.style.fontSize="18px"
+   subheading4.style.fontSize="22px"
    subheading4.style.fontWeight = "bold"
 
    var subheading5 = document.getElementsByClassName("subheadings")[5];
-   subheading5.style.fontSize="18px"
+   subheading5.style.fontSize="22px"
    subheading5.style.fontWeight = "bold"
 
    var subdetail = document.getElementsByClassName("subdetails")[0];

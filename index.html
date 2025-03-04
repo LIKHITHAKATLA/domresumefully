@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta property="og:title" content="Resume" />
+    <meta property="og:description" content="My Resume" />
+    <meta property="og:image" content="https://th.bing.com/th/id/OIP.RMCynOPZ-vLloJCsasOKGAHaHa?pid=ImgDet&w=191&h=191&c=7" />
+    <meta property="og:url" content="https://th.bing.com/th/id/OIP.RMCynOPZ-vLloJCsasOKGAHaHa?pid=ImgDet&w=191&h=191&c=7" />
+
+</head>
+<body>
+    <script>
+        var resumee = document.createElement("h1")
+        resumee.className = "heading"
+        resumee.innerHTML = 'KATLA LIKHITHA'
+        document.body.append(resumee)
+        
+        console.log(resumee)
+
+
+
+
+        var head = document.createElement("header");
+        head.innerHTML = '<div class="divcon"><i class="fa fa-envelope"></i><a href="mailto:likhithakatla1002@gmail.com">likhithakatla1002@gmail.com</a></div><div class="divcon"><i class="fa fa-phone"></i> 9381297504</div><div class="divcon"><i class="fa fa-map-marker"></i> Siriclla</div><div class="divcon"><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/katla-likhitha-675b2022b/" target="_blank">linkedin.com/in/katla-likhitha-675b2022b</a></div>';
+        document.body.append(head)
+
+        console.log(head)
+
+        var headin = document.getElementsByClassName("heading")[0];
+       headin.style.textAlign = "center"
+       headin.style.fontSize = "2rem"
+
+        var divcon = document.getElementsByClassName("divcon")[0];
+        var divcon1 = document.getElementsByClassName("divcon")[1];
+        var divcon2 = document.getElementsByClassName("divcon")[2];
+        var divcon3 = document.getElementsByClassName("divcon")[3];
+        divcon.style.textAlign = "center"
+        divcon1.style.textAlign = "center"
+        divcon2.style.textAlign = "center"
+        divcon3.style.textAlign = "center"
+
+        var profile = document.createElement("div")
+        profile.innerHTML = '<div class="subheadings"><i class="fa fa-address-card"></i> PROFILE</div><hr><p class="font">To secure a challenging Full Stack Developer position where I can apply my skills to create dynamic and user-friendly web applications, contribute to a collaborative team, and continuously enhance my technical knowledge.</p>'
+        document.body.append(profile)
+
+        var education = document.createElement("div")
+        education.innerHTML = '<div class="subheadings"><i class="fa fa-graduation-cap"></i> EDUCATION</div><hr>'
+        document.body.append(education)
+        console.log(education)
+
+        var edu = document.createElement("div")
+        edu.className = "table"
+        edu.innerHTML = '<div class="row"><div class="cell details">Masters of Computer Applicatio(MCA)</div><div class="cell details">2022-2024</div></div><div class="row"><div class="cell subdetails font">A V PG CollegHyderabad</div><div class="cell subdetails font">82%</div></div><div class="row"><div class="cell details">Bachelors of Science (MSC)</div><div class="cell details">2019-2022</div></div><div class="row"><div class="cell subdetails font">Mahatma Jyothiba PhuResidential Degree College, Wargal</div><div class="cell subdetails font">92%</div></div>'
+        document.body.append(edu)
+        console.log(edu)
+
+        var projec = document.createElement("div")
+        projec.className = "subheadings"
+        projec.innerHTML = '<i class="fa fa-folder-open"></i>&nbsp;PROJECTS</div><hr>'
+    document.body.append(projec)
+    console.log(projec)
+
+    var projectdesc = document.createElement('div')
+    projectdesc.innerHTML = '<p class="details">WORKPATH (Employment for Semi-Literates)</p><p class="subdetails font">Frontend Web DevelopmentIntern by IBMCOMPANY</p><ul type="disc"><li>Developed an innovative web platform to facilitateemploymentopportunities for semi-literate individuals.</li><li>Designed user-friendly interfaces with simple navigationtoaccommodate users with limited literacy.</li><li>Utilized technologies such as HTML, CSS, Javascript, MySQLBootstrap.</li></ul><p class="details">ONLINE EXAMINATION SYSTEM</p><ul type="disc"><li>Developed and implemented a online examination system tostreamlinethe exam process for educational institutions.</li><li>Key features included secure user authentication, examcreation andscheduling, automated grading, and comprehensivereporting.</li><li>Enhanced exam accessibility and efficiency,reducingadministrativeworkload and improving the overall user experience</li><li>Utilized technologies such as HTML, CSS, JavaScript, andMySQL.</li></ul>'
+    document.body.append(projectdesc)
+
+    var skills = document.createElement('div')
+    skills.className = 'subheadings'
+    skills.innerHTML = '<i class="fa fa-briefcase"></i> SKILLS<hr>'
+    document.body.append(skills)
+
+    var skilldesc = document.createElement('div')
+    skilldesc.className = 'table'
+    skilldesc.innerHTML = '<div class="row"><div class="cell ">Languages: Python, HTML, CSS, JavaScript</div><div class="cell ">Frameworks: Bootstrap</div></div><div class="row"><div class="cell ">Database: MySQL</div><div class="cell ">Tools: VSCode</div></div>'
+    document.body.append(skilldesc)
+
+
+    var achievement = document.createElement("div")
+    achievement.className = "subheadings"
+    achievement.innerHTML = '<i class="fa fa-trophy"></i>&nbsp;ACHIEVEMENTS</div><hr>'
+    document.body.append(achievement)
+    console.log(achievement)
+
+    var achivedesc = document.createElement("div")
+    achivedesc.innerHTML = '<p class="details">Certified with PITCH NIGHT by IBM</p><ul type="disc"><li>In recognition of outstanding achievement as the 3rd runner-upof the IBM Skills build Front End Web Development Internship Program.</li></ul>'
+    document.body.append(achivedesc)
+
+
+    var declare = document.createElement("div")
+    declare.className = "subheadings"
+    declare.innerHTML = '<i class="fa fa-pencil"></i>&nbsp;DECLARATION</div><hr>'
+    document.body.append(declare)
+    console.log(declare)
+
+    var declaredesc = document.createElement("div")
+    declaredesc.innerHTML = '<p>I hereby declare that all the information provided in this resume is true and correct to the best of my knowledge andbelief.I understand that any willful misstatement herein described may lead to my disqualification or dismissal if employed.</p><p class="right details">Katla Likhitha</p>'
+    document.body.append(declaredesc)
+
+
+
+    var detail = document.getElementsByClassName('details')[0];
+    var detail1 = document.getElementsByClassName('details')[1];
+    var detail2 = document.getElementsByClassName('details')[2];
+    var detail3 = document.getElementsByClassName('details')[3];
+    var detail4 = document.getElementsByClassName('details')[4];
+    var detail5 = document.getElementsByClassName('details')[5];
+    var detail6 = document.getElementsByClassName('details')[6];
+    var detail7 = document.getElementsByClassName('details')[7];
+
+    detail.style.fontWeight="bold"
+    detail1.style.fontWeight="bold"
+    detail2.style.fontWeight="bold"
+    detail3.style.fontWeight="bold"
+    detail4.style.fontWeight="bold"
+    detail5.style.fontWeight="bold"
+    detail6.style.fontWeight="bold"
+    detail7.style.fontWeight="bold"
+
+    var tabl = document.getElementsByClassName("table")[0];
+    tabl.style.display = "table"
+    tabl.style.width = "100%";
+
+    var tabl1 = document.getElementsByClassName("table")[1];
+    tabl1.style.display = "table"
+    tabl1.style.width = "100%";
+    
+    var ro = document.getElementsByClassName("row")[0];
+    ro.style.display = "table-row"
+
+    var ro1 = document.getElementsByClassName("row")[1];
+    ro1.style.display = "table-row"
+    // console.log(ro1)
+
+    var ro2 = document.getElementsByClassName("row")[2];
+    ro2.style.display = "table-row"
+    
+    var ro3 = document.getElementsByClassName("row")[3];
+    ro3.style.display = "table-row"
+
+    var ro4 = document.getElementsByClassName("row")[4];
+    ro4.style.display = "table-row"
+    // console.log(ro4)
+    var ro5 = document.getElementsByClassName("row")[5];
+    ro5.style.display = "table-row"
+    console.log(ro5)
+
+    var cel = document.getElementsByClassName("cell")[0];
+    cel.style.display = "table-cell"
+    cel.style.padding = "5px"
+    cel.style.verticalAlign = "top"
+
+
+    var cel1 = document.getElementsByClassName("cell")[1];
+    cel1.style.display = "table-cell"
+    cel1.style.padding = "5px"
+    cel1.style.verticalAlign = "top"
+    // console.log(cel1)
+
+    var cel2 = document.getElementsByClassName("cell")[2];
+    cel2.style.display = "table-cell"
+    cel2.style.padding = "5px"
+    cel2.style.verticalAlign = "top"
+
+
+    var cel3 = document.getElementsByClassName("cell")[3];
+    cel3.style.display = "table-cell"
+    cel3.style.padding = "5px"
+    cel3.style.verticalAlign = "top"
+
+    // console.log(cel3)
+
+    var cel4 = document.getElementsByClassName("cell")[4];
+    cel4.style.display = "table-cell"
+    cel4.style.padding = "5px"
+    cel4.style.verticalAlign = "top"
+
+
+    var cel5 = document.getElementsByClassName("cell")[5];
+    cel5.style.display = "table-cell"
+    cel5.style.padding = "5px"
+    cel5.style.verticalAlign = "top"
+
+
+    var cel6 = document.getElementsByClassName("cell")[6];
+    cel6.style.display = "table-cell"
+    cel6.style.padding = "5px"
+    cel6.style.verticalAlign = "top"
+
+
+    var cel7 = document.getElementsByClassName("cell")[7];
+    cel7.style.display = "table-cell"
+    cel7.style.padding = "5px"
+    cel7.style.verticalAlign = "top"
+
+
+    var cel8 = document.getElementsByClassName("cell")[8];
+    cel8.style.display = "table-cell"
+    cel8.style.padding = "5px"
+    cel8.style.verticalAlign = "top"
+
+
+    var cel9 = document.getElementsByClassName("cell")[9];
+    cel9.style.display = "table-cell"
+    cel9.style.padding = "5px"
+    cel9.style.verticalAlign = "top"
+
+
+    var cel10 = document.getElementsByClassName("cell")[10];
+    cel10.style.display = "table-cell"
+    cel10.style.padding = "5px"
+    cel10.style.verticalAlign = "top"
+
+
+   var h = document.getElementsByTagName("hr")[0];
+   h.style.height = "2px";
+   h.style.backgroundColor="black"
+   h.style.border = "none"
+
+   var h1 = document.getElementsByTagName("hr")[1];
+   h1.style.height = "2px";
+   h1.style.backgroundColor="black"
+   h1.style.border = "none"
+
+   var h2 = document.getElementsByTagName("hr")[2];
+   h2.style.height = "2px";
+   h2.style.backgroundColor="black"
+   h2.style.border = "none"
+
+   var h3 = document.getElementsByTagName("hr")[3];
+   h3.style.height = "2px";
+   h3.style.backgroundColor="black"
+   h3.style.border = "none"
+   
+   var h4 = document.getElementsByTagName("hr")[4];
+   h4.style.height = "2px";
+   h4.style.backgroundColor="black"
+   h4.style.border = "none"
+
+   var h5 = document.getElementsByTagName("hr")[5];
+   h5.style.height = "2px";
+   h5.style.backgroundColor="black"
+   h5.style.border = "none"
+
+
+   var subheading = document.getElementsByClassName("subheadings")[0];
+   subheading.style.fontSize="18px"
+   subheading.style.fontWeight = "bold"
+
+   var subheading1 = document.getElementsByClassName("subheadings")[1];
+   subheading1.style.fontSize="18px"
+   subheading1.style.fontWeight = "bold"
+
+   var subheading2 = document.getElementsByClassName("subheadings")[2];
+   subheading2.style.fontSize="18px"
+   subheading2.style.fontWeight = "bold"
+
+   var subheading3 = document.getElementsByClassName("subheadings")[3];
+   subheading3.style.fontSize="18px"
+   subheading3.style.fontWeight = "bold"
+
+   var subheading4 = document.getElementsByClassName("subheadings")[4];
+   subheading4.style.fontSize="18px"
+   subheading4.style.fontWeight = "bold"
+
+   var subheading5 = document.getElementsByClassName("subheadings")[5];
+   subheading5.style.fontSize="18px"
+   subheading5.style.fontWeight = "bold"
+
+   var subdetail = document.getElementsByClassName("subdetails")[0];
+   subdetail.style.fontWeight = "italic"
+
+
+ 
+   var righ = document.getElementsByClassName("right")[0];
+   righ.style.textAlign = "right"
+
+   head.style.display = "flex";   
+   head.style.flexDirection = "row";  
+   head.style.alignItems = "center";  
+   head.style.justifyContent = "center"
+   head.style.padding = "10px";  
+   head.style.gap = '20px'
+
+    </script>
+    
+</body>
+</html>
